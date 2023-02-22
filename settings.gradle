@@ -1,0 +1,5 @@
+rootProject.name = 'ebase-api'
+
+include 'ebase-app-api'
+include 'ebase-cms-api'
+include 'demo'

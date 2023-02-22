@@ -1,0 +1,31 @@
+{
+	"name": "Java",
+	"image": "mcr.microsoft.com/devcontainers/java:17",
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installMaven": "false",
+			"installGradle": "true"
+		},
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "none"
+		},
+		"ghcr.io/devcontainers/features/docker-from-docker:1": {}
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+			},
+
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"vmware.vscode-boot-dev-pack",
+				"shabirmean.ebean-enhancement",
+				"eamodio.gitlens"
+			]
+		}
+	},
+}
